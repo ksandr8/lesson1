@@ -140,3 +140,23 @@ $gt = 'тест';
 echo mb_strlen($gt); // вивід кількість символів кирилиця
 */
 //Lesson 3. Task 12.
+/*
+$str = 'Hello';
+echo '<i>' . $str . '</i>';
+$num = '<br>1 <br>2 <br>3 <br>4 <br>5 <br>6 <br>7 <br>8 <br>9';
+echo $num;
+
+$img = 'https://klever.blog/types-of-it-companies/';
+$txt = 'image';
+echo '<br>' . '<a href="' . $img . '">' . $txt . '</a>';
+
+$image = '<img src="prof-test.png">';
+echo '<br>' . $image . '<br>';
+
+$input = '<input type="text" placeholder="first name">';
+echo '<br>' . $input;
+
+$txtar = '<textarea rows="4" cols="40" placeholder="some text">';
+echo '<br>' . $txtar;
+*/
+//Lesson 3. Task 13.
