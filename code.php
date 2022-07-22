@@ -102,3 +102,10 @@ $b =0.75;
 echo $a+$b;
 */
 //Lesson 3. Task 8.
+/*
+$a = -100;
+echo $a;
+$a = 23;
+echo -$a;
+*/
+//Lesson 3. Task 9.
