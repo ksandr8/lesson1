@@ -96,5 +96,9 @@ $a = 2*(8/4); // вивід 4
 echo $a;
 */
 //Lesson 3. Task 7.
-
-
+/*
+$a =1.5;
+$b =0.75;
+echo $a+$b;
+*/
+//Lesson 3. Task 8.
