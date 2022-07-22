@@ -167,3 +167,9 @@ $ow = false;
 var_dump($ow);
 */
 //Lesson 3. Task 14.
+/*
+$sd = null;
+var_dump($sd);
+var_dump($sw);
+*/
+//Lesson 3. Task 15.
