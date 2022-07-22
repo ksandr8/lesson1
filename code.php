@@ -160,3 +160,10 @@ $txtar = '<textarea rows="4" cols="40" placeholder="some text">';
 echo '<br>' . $txtar;
 */
 //Lesson 3. Task 13.
+/*
+$old = true;
+var_dump($old);
+$ow = false;
+var_dump($ow);
+*/
+//Lesson 3. Task 14.
