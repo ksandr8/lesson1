@@ -125,3 +125,18 @@ $a =2**3*3; // Вивід 24
 $a =3*2**3*3; // Вивід 72
 */
 //Lesson 3. Task 11.
+/*
+$str = 'hello';
+echo $str;
+$s='abc';
+$t='def ';
+echo $s . $t;
+$u = 'hello';
+$p = 'world ';
+echo $u . ' ' . $p;
+$so = 'green';
+echo strlen($so); // вивід кількість символів
+$gt = 'тест';
+echo mb_strlen($gt); // вивід кількість символів кирилиця
+*/
+//Lesson 3. Task 12.
