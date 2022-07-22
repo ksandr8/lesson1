@@ -109,3 +109,9 @@ $a = 23;
 echo -$a;
 */
 //Lesson 3. Task 9.
+/*
+$a=10;
+$b=3;
+echo $a%$b;
+*/
+//Lesson 3. Task 10.
