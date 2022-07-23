@@ -173,3 +173,10 @@ var_dump($sd);
 var_dump($sw);
 */
 //Lesson 3. Task 15.
+/*
+$a = '1';
+$v = '2';
+echo $a + $v + '3'; //вивід 6
+*/
+//Lesson 3. Task 16.
+
