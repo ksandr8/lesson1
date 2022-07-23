@@ -193,3 +193,43 @@ $uo = (float) 12.345;
 var_dump($uo);
 */
 //Lesson 3. Task 17.
+/*
+$rt = 'abcde';
+echo $rt [0] . $rt [2] . $rt [4];
+$ui = 'abcde';
+$ui [0] = 'e';
+$ui [1] = 'd';
+$ui [2] = 'c';
+$ui [3] = 'b';
+$ui [4] = 'a';
+echo $ui;
+
+$str = 'abcde';
+$num = 4;
+echo $str[$num];
+
+$hp = 'abcde';
+$last = strlen($hp) -1;
+echo $hp[$last];
+
+$pos = 'hello';
+echo $pos[strlen($pos)-2];
+
+$rt = 'friend';
+echo $rt[strlen($rt)-3];
+
+$numb = '12345';
+echo $numb[0]+$numb[1]+$numb[2]+$numb[3]+$numb[4];
+
+$io = 12345;
+$ios = (string) $io;
+echo $ios[0]+$ios[1]+$ios[2]+$ios[3]+$ios[4];
+echo $ios[0]*$ios[1]*$ios[2]*$ios[3]*$ios[4];
+$ios[0] = 5;
+$ios[1] = 4;
+$ios[2] = 3;
+$ios[3] = 2;
+$ios[4] = 1;
+echo $ios;
+*/
+//Lesson 3. Task 18.
