@@ -179,4 +179,17 @@ $v = '2';
 echo $a + $v + '3'; //вивід 6
 */
 //Lesson 3. Task 16.
-
+/*
+$test = (int)'12345';
+var_dump($test);
+//var_dump((int)$test);
+$tr = (float)'12.345';
+var_dump($tr);
+$tr = (int)'12.345';
+var_dump($tr);
+$ft = (string) 12345;
+var_dump($ft);
+$uo = (float) 12.345;
+var_dump($uo);
+*/
+//Lesson 3. Task 17.
