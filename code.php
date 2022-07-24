@@ -252,3 +252,18 @@ $str .= 'c';
 echo $str;
 */
 //Lesson 3. Task 19.
+/*
+$num = 10;
+$num++;
+$num++;
+$num--;
+echo $num;
+*/
+/*
+$num1 =3;
+$num1++;
+$num2 = $num1--;
+echo $num1++;
+echo --$num2;
+*/
+//Lesson 3. Task 20.
