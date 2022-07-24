@@ -233,3 +233,22 @@ $ios[4] = 1;
 echo $ios;
 */
 //Lesson 3. Task 18.
+/*
+$num = 1;
+$num = $num+1;
+$num = $num+1;
+echo $num;
+*/
+/*
+$nu = 47;
+$nu +=7;
+$nu -=18;
+$nu *= 10;
+$nu /= 15;
+echo $nu;
+$str = 'a';
+$str .= 'b';
+$str .= 'c';
+echo $str;
+*/
+//Lesson 3. Task 19.
