@@ -49,3 +49,26 @@ $date=[5=>2022,95=>'Липень',25=>26];
 var_dump($date);
 */
 //Lesson 4. Task 4.
+//#1
+/*
+$arr = ['a','b','c','d','e'];
+echo count($arr);
+*/
+//#2
+/*
+$arr = ['a'=>1, 'b'=>2, 'c'=>3, 'd'=>4];
+echo count($arr);
+*/
+//#3
+/*
+$arr = ['a', 'b', 'c', 'd', 'e'];
+echo $arr[count($arr)-1];
+*/
+//#4
+/*
+$arr = ['a', 'b', 'c', 'd', 'e'];
+echo $arr[count($arr)-2];
+*/
+//Lesson 4. Task 5.
+
+
