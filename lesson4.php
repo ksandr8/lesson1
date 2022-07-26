@@ -26,3 +26,21 @@ $result = $arr1+$arr2;
 var_dump($result);
 */
 //Lesson 4. Task 2.
+/*
+//#1
+$rt = [1=>'a', 'b', 'c'];
+var_dump($rt);
+echo "<br>";
+//#2
+$art = [1=>'січень' ,'лютий' ,'березень' ,'квітень' ,'травень'];
+var_dump($art);
+echo "<br>";
+//#3
+$rob = ['name'=>'Олександр','surname'=>'Бортанович', 'patronymic'=>'Олексійович'];
+echo "Прізвище: {$rob['surname']} Ім'я: {$rob['name']} По-батькові: {$rob['patronymic']}";
+echo "<br>";
+//#4
+$date=['year'=>2022,'month'=>'Липень','day'=>26];
+echo "Рік: {$date['year']} Місяць: {$date['month']} День: {$date['day']} ";
+*/
+//Lesson 4. Task 3.
