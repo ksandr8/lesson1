@@ -70,5 +70,32 @@ $arr = ['a', 'b', 'c', 'd', 'e'];
 echo $arr[count($arr)-2];
 */
 //Lesson 4. Task 5.
+//#1
+/*
+$arr = ['a'=>1,'b'=>2, 'c'=>3];
+$arr['a']=4;
+$arr['b']=5;
+$arr['c']=6;
+var_dump($arr);
+*/
+//#2
+/*
+$arr=['a'=>1,'b'=>2,'c'=>3];
+$arr['a'] .=3;
+$arr['b'] .=3;
+$arr['c'] .=3;
+var_dump($arr);
+*/
+//#3
+/*
+$arr=['a'=>1,'b'=>2,'c'=>3];
+$arr['a']++;
+$arr['a']++;
+$arr['b']--;
+$arr['c']--;
+$arr['c']--;
+var_dump($arr);
+*/
+//Lesson 4. Task 6
 
 
