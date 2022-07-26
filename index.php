@@ -12,3 +12,4 @@ error_reporting(E_ALL);
 ini_set('disable_errors', 'on');
 mb_internal_encoding('UTF-8');
 include 'code.php';
+include 'lesson4.php';
