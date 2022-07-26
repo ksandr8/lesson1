@@ -44,3 +44,8 @@ $date=['year'=>2022,'month'=>'Липень','day'=>26];
 echo "Рік: {$date['year']} Місяць: {$date['month']} День: {$date['day']} ";
 */
 //Lesson 4. Task 3.
+/*
+$date=[5=>2022,95=>'Липень',25=>26];
+var_dump($date);
+*/
+//Lesson 4. Task 4.
