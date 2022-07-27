@@ -202,3 +202,13 @@ if ($test2>$test1){
 }
 */
 //Lesson 4. Task 9.
+/*
+$te1=2;
+$te2=3;
+if ($te1!==$te2){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//Lesson 4. Task 10.
