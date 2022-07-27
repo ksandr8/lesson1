@@ -97,5 +97,29 @@ $arr['c']--;
 var_dump($arr);
 */
 //Lesson 4. Task 6
-
-
+//#1
+/*
+$arr = [];
+$arr[]=1;
+$arr[]=2;
+$arr[]=3;
+$arr[]=4;
+$arr[]=5;
+var_dump($arr);
+*/
+//#2
+/*
+$arr = [1,2,3];
+$arr[]=4;
+$arr[]=5;
+var_dump($arr);
+*/
+//#3
+/*
+$arr=[];
+$arr['year']=2022;
+$arr['month']='липень';
+$arr['day']=27;
+var_dump($arr);
+*/
+//Lesson 4. Task 7.
