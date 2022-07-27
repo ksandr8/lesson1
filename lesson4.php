@@ -212,3 +212,77 @@ if ($te1!==$te2){
 }
 */
 //Lesson 4. Task 10.
+//#1
+/*
+$num = 3;
+if ($num>0 and $num<5){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//#2
+/*
+$num = 15;
+if ($num>=10 and $num<=20){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//#3
+/*
+$num1 = 1;
+$num2 = 4;
+if ($num1<=1 and $num2>=3){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//#4
+/*
+$num1=-10;
+$num2=-10;
+if ($num1 >=0 or $num2>=0){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+#9
+/*
+$num1=1;
+if ($num1==0 or $num1==1){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+/*
+$num = 3;
+if (($num>0 and $num<5) or ($num>10 and $num<20)){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//#13
+/*
+$num =3;
+if (($num>5 and $num<10) or ($num==20)){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//#14
+/*
+$num=3;
+if (($num==9) or ($num>10 and $num<20) or ($num>20 and $num<30)){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//Lesson 4. Task 11.
