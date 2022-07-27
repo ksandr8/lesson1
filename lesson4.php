@@ -123,3 +123,17 @@ $arr['day']=27;
 var_dump($arr);
 */
 //Lesson 4. Task 7.
+/*
+//#1
+$arr=[1,2,3,4,5];
+$key1=0;
+$key2=1;
+var_dump($arr[$key1]+$arr[$key2]);
+*/
+//#2
+/*
+$arr =['a'=>1, 'b'=>2, 'c'=>3];
+$key='a';
+echo $arr[$key];
+*/
+//Lesson 4. Task 8.
