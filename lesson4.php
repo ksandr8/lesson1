@@ -137,3 +137,68 @@ $key='a';
 echo $arr[$key];
 */
 //Lesson 4. Task 8.
+//#1
+/*
+$test = 10;
+if ($test>10){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//#2
+/*
+$test = 10;
+if ($test<10){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//#3
+/*
+$test = 10;
+if ($test>=10){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//#4
+/*
+$test = 10;
+if ($test<=10){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//#5
+/*
+$test = 10;
+if ($test==10){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//#6
+/*
+$test = 10;
+if ($test!=10){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//#7
+/*
+$test1=1;
+$test2=2;
+if ($test2>$test1){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//Lesson 4. Task 9.
