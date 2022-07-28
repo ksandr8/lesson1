@@ -413,3 +413,49 @@ if ($test){
 }
 */
 //Lesson 4. Task 13
+#1
+/*
+$test = 0;
+if (isset($test)){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+#2
+/*
+$test = null;
+if (!isset($test)){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+#4
+/*
+if (!isset($test)){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+#7
+/*
+$test = false;
+if (isset($test)){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+#8
+/*
+$arr = [1,2,3,4,5];
+
+if (isset($arr[])){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//Lesson 4. Task 14.
