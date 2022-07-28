@@ -286,3 +286,13 @@ if (($num==9) or ($num>10 and $num<20) or ($num>20 and $num<30)){
 }
 */
 //Lesson 4. Task 11.
+/*
+$num1=5;
+$num2=6;
+if (!($num1>=0 or $num2 <= 10)){
+    echo '+';
+}else {
+    echo '-';
+}
+*/
+//Lesson 4. Task 12.
