@@ -546,15 +546,16 @@ if ($day<=10){
 }
 */
 #4
-/*
-$age = "50";
+
+$age = 76;
+$age2=(string)$age;
 $sum = 0;
 if ($age > 10){
     if ($age < 99){
         echo 'Потрапляє в діапазон 10 - 99';
         echo "<br>";
-        for ($i = 0; $i < strlen($age);$i++){
-            $sum += $age[$i];
+        for ($i = 0; $i < strlen($age2);$i++){
+            $sum += $age2[$i];
         }
         echo "Вік: {$age}";
         echo "<br>";
@@ -571,6 +572,6 @@ if ($age > 10){
 }else {
     echo 'Число менше 10';
 }
-*/
+
 //Lesson 4. Task 17.
 
