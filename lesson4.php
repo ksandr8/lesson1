@@ -490,3 +490,21 @@ if (empty($test)){
 }
 */
 //Lesson 4. Task 15.
+#1
+/*
+$test =10;
+if ($test=10){
+    echo 'True';
+}
+*/
+#2
+/*
+$test=5;
+if ($test==0) echo 'true'; else echo 'false';
+*/
+#3
+/*
+$test = 0;
+if ($test==0) echo 'true';
+*/
+//Lesson 4. Task 16.
