@@ -459,3 +459,34 @@ if (isset($arr[])){
 }
 */
 //Lesson 4. Task 14.
+#1
+/*
+$test =0;
+
+if (empty($test)){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+#2
+/*
+$test =-1;
+
+if (empty($test)){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+#3
+/*
+$test ='';
+
+if (empty($test)){
+    echo '+';
+}else{
+    echo '-';
+}
+*/
+//Lesson 4. Task 15.
