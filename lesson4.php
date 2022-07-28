@@ -508,3 +508,69 @@ $test = 0;
 if ($test==0) echo 'true';
 */
 //Lesson 4. Task 16.
+#1
+/*
+$day =31;
+if ($day<=10){
+    echo '1 декада';
+}
+if ($day>10 and $day<=20){
+    echo '2 декада';
+}
+if ($day>20 and $day<=31){
+    echo '3 декада';
+}
+*/
+#2
+/*
+$day =11;
+if ($day<=10){
+    echo '1 декада';
+} elseif ($day>10 and $day<=20){
+    echo '2 декада';
+} elseif ($day>20 and $day<=31) {
+    echo '3 декада';
+}
+*/
+#3
+/*
+$day =44;
+if ($day<=10){
+    echo '1 декада';
+} elseif ($day>10 and $day<=20){
+    echo '2 декада';
+} elseif ($day>20 and $day<=31) {
+    echo '3 декада';
+}else {
+    echo 'Невірне значення $day';
+}
+*/
+#4
+/*
+$age = "50";
+$sum = 0;
+if ($age > 10){
+    if ($age < 99){
+        echo 'Потрапляє в діапазон 10 - 99';
+        echo "<br>";
+        for ($i = 0; $i < strlen($age);$i++){
+            $sum += $age[$i];
+        }
+        echo "Вік: {$age}";
+        echo "<br>";
+        echo "Сумма: {$sum}";
+        echo "<br>";
+        if ($sum<=9){
+            echo 'Сума цифр однозначне';
+        }else{
+            echo 'Сума цифр двузначне';
+        }
+    }else{
+        echo 'Число більше 99';
+    }
+}else {
+    echo 'Число менше 10';
+}
+*/
+//Lesson 4. Task 17.
+
