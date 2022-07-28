@@ -24,4 +24,16 @@ $b=&$a; // посилання на змінну, при змінні змінн�
 $a=10;
 echo $a, $b;
 */
-
+/*
+$day = 5;
+switch ($day){
+    case 1: echo 'Понеділок'; break;
+    case 2: echo 'Вівторок'; break;
+    case 3: echo 'Середа'; break;
+    case 4: echo 'Четвер'; break;
+    case 5: echo 'П\'ятниця'; break;
+    case 6: echo 'Субота'; break;
+    case 7: echo 'Неділя'; break;
+    default: echo 'немає дня';
+}
+*/
