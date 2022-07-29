@@ -574,4 +574,53 @@ if ($age > 10){
 }
 */
 //Lesson 4. Task 17.
+#1
+/*
+$min =44;
+if ($min>=0 and $min<=14){
+    echo '1 четверть';
+} elseif ($min>=15 and $min<=29){
+    echo '2 четверть';
+} elseif ($min>=30 and $min<=44) {
+    echo '3 четверть';
+}elseif ($min >=45 and $min<=59) {
+    echo '4 четверть';
+}else {
+    echo 'Невірне значення $min';
+}
+*/
+#2
+/*
+$arr =[1,2,3,5];
+$sum=0;
+if (count($arr)==3){
+    echo array_sum($arr);
+    }
+else{
+    echo "значення більше 3";
+}
+*/
+#3
+/*
+$a = 13;
+$b = 5;
+$res = $a%$b;
+if ($res%2==0){
+    echo "Парне";
+}else{
+    echo "Непарне";
+}
+*/
+#4
+/*
+$a=9;
+if ($a%3==0){
+    echo "Ділиться на 3";
+    echo "\n";
+    echo "Число: " . $a;
+}else{
+    echo "Не ділиться на 3";
+}
+*/
+//Lesson 4. Task 18.
 
