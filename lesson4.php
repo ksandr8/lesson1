@@ -547,7 +547,7 @@ if ($day<=10){
 */
 #4
 /*
-$age = 76;
+$age = 54;
 $age2=(string)$age;
 $sum = 0;
 if ($age > 10){
@@ -622,5 +622,61 @@ if ($a%3==0){
     echo "Не ділиться на 3";
 }
 */
-//Lesson 4. Task 18.
-
+//Lesson 4. Task 18. ЗАДАЧІ
+#1
+/*
+$month =8;
+if ($month==12 or ($month<=2 and $month!==0)){
+    echo "Зима";
+}elseif ($month>=3 and $month<=5){
+    echo "Весна";
+}elseif ($month>=6 and $month<=8){
+    echo "Літо";
+}elseif ($month>=9 and $month<=11){
+    echo "Осінь";
+}else{
+    echo 'Неправильне значення $month';
+}
+*/
+#2
+/*
+$str = 'abcde';
+if ($str[0]=='a')
+    echo 'Перший символ а';
+*/
+#3
+/*
+$ch=12345;
+$st=(string)$ch;
+if ($st[0]==1){
+    echo 'Перше значення 1';
+}elseif ($st[0]==2){
+    echo 'Перше значення 2';
+}elseif ($st[0]==3){
+    echo 'Перше значення 3';
+}else{
+    echo "Перше значення інше: $st[0]";
+}
+*/
+#4
+/*
+$ch = 555;
+$str = (string)$ch;
+$sum =0;
+for ($i = 0; $i < strlen($str);$i++){
+    $sum += $str[$i];
+}
+echo $sum;
+*/
+#5
+/*
+$ch = '123123';
+$sum1 = $ch[0]+$ch[1]+$ch[2];
+$sum2 = $ch[3]+$ch[4]+$ch[5];
+if ($sum1==$sum2){
+    echo "Сума перших 3 цифр = сумі другій 3 цифр: 1 сума = $sum1 2 сума = $sum2";
+}else{
+    echo "Не дорівнює: 1 сума = $sum1 2 сума = $sum2";
+}
+*/
+//Lesson 4. Task 19.
