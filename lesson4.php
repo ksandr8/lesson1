@@ -546,7 +546,7 @@ if ($day<=10){
 }
 */
 #4
-
+/*
 $age = 76;
 $age2=(string)$age;
 $sum = 0;
@@ -572,6 +572,6 @@ if ($age > 10){
 }else {
     echo 'Число менше 10';
 }
-
+*/
 //Lesson 4. Task 17.
 
