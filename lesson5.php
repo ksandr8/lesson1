@@ -27,3 +27,8 @@ $result = $c+$d;
 echo $result;
 */
 //Задача №4
+/*
+$name = 'Alex';
+echo "Привіт: $name";
+*/
+//Задача №5
