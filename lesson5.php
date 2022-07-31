@@ -121,3 +121,37 @@ if ($min==0 or $min<=15){
 }
 */
 //Задача №15
+/*
+$lang = 'en';
+$arr=[];
+$ua = ['понеділок','вівторок','середа','четвер','п\'ятниця','субота','неділя'];
+$en = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday'];
+if ($lang=='ua'){
+    $arr=$ua;
+    print_r($arr);
+}if ($lang=='en'){
+    $arr=$en;
+    print_r($arr);
+}
+*/
+/*
+$lang = 'en';
+$ua = ['понеділок','вівторок','середа','четвер','п\'ятниця','субота','неділя'];
+$en = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday'];
+$arr=[];
+switch ($lang){
+    case 'ua': $arr = $ua; break;
+    case 'en': $arr = $en; break;
+    default: echo '';
+}print_r($arr);
+*/
+/*
+$lang ='en';
+$arr=[
+    'ua' => ['понеділок','вівторок','середа','четвер','п\'ятниця','субота','неділя'],
+    'en' => ['monday','tuesday','wednesday','thursday','friday','saturday','sunday']
+];
+print_r($arr[$lang]);
+*/
+//Задача №16
+
