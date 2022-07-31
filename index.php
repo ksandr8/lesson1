@@ -15,3 +15,4 @@ include 'code.php';
 include 'lesson4.php';
 include 'video.php';
 include 'work.php';
+include 'lesson5.php';
