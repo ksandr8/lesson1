@@ -62,3 +62,11 @@ $text.='PHP ';
 echo $text;
 */
 //Задача №8
+/*
+$var=10;
+++$var;
+++$var;
+--$var;
+echo $var;
+*/
+//Задача №9
