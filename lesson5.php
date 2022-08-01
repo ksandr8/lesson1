@@ -163,3 +163,56 @@ if (empty($a)){
 }
 */
 //Задача №17
+/*
+$a=null;
+if (isset($a)){
+    echo "Правильно";
+}else{
+    echo "Не правильно";
+}
+*/
+//Задача №18
+
+
+//Lesson 5. Task 44.
+/*
+$i = 1;
+while ($i<=100){
+    echo $i;
+    echo "<br>";
+    $i++;
+}
+*/
+/*
+$i = 11;
+while ($i<=33){
+    echo $i;
+    echo "<br>";
+    $i++;
+}
+*/
+/*
+$i = 2;
+while ($i<=100){
+    echo $i;
+    echo "<br>";
+    $i+=2;
+}
+*/
+/*
+$i = 1;
+while ($i<=99){
+    echo $i;
+    echo "<br>";
+    $i+=2;
+}
+*/
+/*
+$i = 30;
+while ($i>=1){
+    echo $i;
+    echo "<br>";
+    $i--;
+}
+*/
+//Lesson 5. Task 45.
