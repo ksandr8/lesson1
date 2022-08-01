@@ -216,3 +216,11 @@ while ($i>=1){
 }
 */
 //Lesson 5. Task 45.
+/*
+$i = 1;
+while ($i<=10){
+    echo $i;
+    $i++; // -- _ помилка
+}
+*/
+//Lesson 5. Task 46.
