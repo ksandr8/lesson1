@@ -181,9 +181,21 @@ if ($var != true) {
 }
 */
 //Задача №19
-
-
-
+/*
+$month =8;
+if ($month==12 or ($month<=2 and $month!==0)){
+    echo "Зима";
+}elseif ($month>=3 and $month<=5){
+    echo "Весна";
+}elseif ($month>=6 and $month<=8){
+    echo "Літо";
+}elseif ($month>=9 and $month<=11){
+    echo "Осінь";
+}else{
+    echo 'Неправильне значення $month';
+}
+*/
+//Задача №20
 
 
 
