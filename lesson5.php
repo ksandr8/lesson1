@@ -377,3 +377,61 @@ foreach ($arr as $key => $item) {
 }
 */
 //Lesson 5. Task 50.
+/*
+$arr = [1, 2, 3, 4, 5];
+foreach ($arr as $value){
+    if($value%2!=0){
+        echo $value;
+    }
+}
+*/
+/*
+$arr = [2, 5, 9, 15, 1, 4];
+foreach ($arr as $value){
+    if($value>3 and $value<10){
+        echo $value;
+    }
+}
+*/
+/*
+$arr = [2, -5, 9, -15, 1, -4];
+$sum = 0;
+foreach ($arr as $value) {
+    if ($value > 0) {
+        $sum += $value;
+    }
+}
+echo $sum;
+*/
+/*
+$arr = [10,20,30,50,235,3000];
+foreach ($arr as $value){
+    $value=(string)$value;
+    if ($value[0]==1 or $value[0]==2 or $value[0]==5){
+        echo $value;
+        echo "<br>";
+    }
+}
+*/
+/*
+$arr = ['Понеділок', 'Вівторок', 'Середа', 'Четвер', 'П\'ятниця', 'Субота', 'Неділя', ];
+foreach ($arr as $key => $value){
+    if ($key == 5 or $key == 6){
+        echo "<b> $value </b> <br>";
+    }else{
+        echo "$value <br>";
+    }
+}
+*/
+/*
+$arr = [1 => 'Понеділок', 2 => 'Вівторок', 3 => 'Середа', 4 => 'Четвер', 5 => 'П\'ятниця', 6 => 'Субота', 7 => 'Неділя',];
+$day = 7;
+foreach ($arr as $key => $value) {
+    if ($key == $day) {
+        echo "<i>$value</i> <br>";
+    }else{
+        echo "$value <br>";
+    }
+}
+*/
+//Lesson 5. Task 51.
