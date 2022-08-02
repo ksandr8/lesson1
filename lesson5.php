@@ -224,3 +224,34 @@ while ($i<=10){
 }
 */
 //Lesson 5. Task 46.
+/*
+for ($i=1;$i<=100;$i++){
+    echo $i;
+    echo "<br>";
+}
+*/
+/*
+for ($i=11;$i<=33;$i++){
+    echo $i;
+    echo "<br>";
+}
+*/
+/*
+for ($i=0;$i<=100;$i+=2){
+    echo $i;
+    echo "<br>";
+}
+*/
+/*
+for ($i=1;$i<=99;$i+=2) {
+    echo $i;
+    echo "<br>";
+}
+*/
+/*
+for ($i=100;$i>=0;$i--){
+    echo $i;
+    echo "<br>";
+}
+*/
+//Lesson 5. Task 47.
