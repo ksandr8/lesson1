@@ -205,7 +205,34 @@ if ($year % 400 == 0) {
 }
 */
 //Задача №21
-
+/*
+$str = 'abcde';
+if ($str[0]=='a') {
+    echo 'Так';
+} else{
+    echo 'Ні';
+}
+*/
+//Задача №22
+/*
+$ch='12345';
+if ($ch[0]<=3 and $ch[0]!=0){
+    echo "Так";
+}else{
+    echo "Ні";
+}
+*/
+//Задача №23
+/*
+$ch = '555555';
+$sum1 = $ch[0]+$ch[1]+$ch[2];
+$sum2 = $ch[3]+$ch[4]+$ch[5];
+if ($sum1==$sum2){
+    echo "Так";
+}else{
+    echo "Ні";
+}
+*/
 
 
 //Lesson 5. Task 44.
@@ -337,3 +364,4 @@ foreach ($arr as $key => $item) {
 echo $ch;
 */
 //Lesson 5. Task 49.
+
