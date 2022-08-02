@@ -364,4 +364,16 @@ foreach ($arr as $key => $item) {
 echo $ch;
 */
 //Lesson 5. Task 49.
-
+/*
+$arr = ['green' => 'зелений', 'red' => 'червоний', 'blue' => 'блакитний'];
+foreach ($arr as $key => $item) {
+    echo "$key - $item <br>";
+}
+*/
+/*
+$arr = ['user1' => 30, 'user2' => 32, 'user3' => 33];
+foreach ($arr as $key => $item) {
+    echo "$key Вік: $item <br>";
+}
+*/
+//Lesson 5. Task 50.
