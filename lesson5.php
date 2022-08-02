@@ -172,6 +172,19 @@ if (isset($a)){
 }
 */
 //Задача №18
+/*
+$var = false;
+if ($var != true) {
+    echo "+";
+} else {
+    echo "-";
+}
+*/
+//Задача №19
+
+
+
+
 
 
 //Lesson 5. Task 44.
