@@ -486,4 +486,18 @@ for ($num = 1; $num <= 100; $num++) {
 }echo $num;
 */
 //Lesson 5. Task 54.
-
+/*
+$arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+foreach ($arr as $value) {
+    if ($value % 2 == 0) {
+        $result = $value * $value;
+    } elseif ($value % 3 == 0) {
+        $result = $value * $value * $value;
+    } else {
+        continue;
+    }
+    echo "<br>";
+    echo $result;
+}
+*/
+//Lesson 5. Task 55.
