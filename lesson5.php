@@ -446,3 +446,44 @@ for ($i=0, $j = 0; $i <=9 ; $i++, $j+=2){
 }
 */
 //Lesson 5. Task 53.
+/*
+$arr = [1, 2, 3, 7, 5, 6];
+foreach ($arr as $value){
+    if ($value==0){
+        break;
+    }
+    echo $value;
+}
+*/
+/*
+$arr = [1, 2, 3, 7, -5, 6];
+$sum = 0;
+foreach ($arr as $value) {
+    if ($value < 0) {
+        break;
+    }
+    $sum += $value;
+}
+echo $sum;
+*/
+/*
+$arr = [1, 2, 3, 7, 5, 6];
+foreach ($arr as $key => $value) {
+    if ($value==3){
+        echo $key;
+        break;
+    }
+}
+*/
+/*
+$sum = 0;
+for ($num = 1; $num <= 100; $num++) {
+    $sum += $num;
+    $num+=1;
+    if ($sum >= 100) {
+        break;
+    }
+}echo $num;
+*/
+//Lesson 5. Task 54.
+
