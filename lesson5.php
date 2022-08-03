@@ -516,4 +516,16 @@ if ($flag===true){
     echo "Немає";
 }
 */
-//Lesson 5. Task 56.
+//Lesson 5. Task 56.ПРОСТІ ЧИСЛА
+/*
+$num = 31;
+$flag = true;
+for ($i = 2; $i < $num; $i++){
+    if ($num%$i===0) {
+        $flag = false;
+        break;
+    }
+}
+var_dump($flag);
+*/
+//Lesson 5. Task 57.
