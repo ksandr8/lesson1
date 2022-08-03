@@ -529,3 +529,23 @@ for ($i = 2; $i < $num; $i++){
 var_dump($flag);
 */
 //Lesson 5. Task 57.
+/*
+$num = 500;
+while ($num > 10) {
+    $num = $num / 2;
+}
+echo $num;
+*/
+/*
+$num = 5;
+while ($num < 1000) {
+    $num = $num * 3;
+    echo "$num <br>";
+}
+*/
+/*
+for ($num = 5, $i = 0; $num < 1000; $num = $num * 3, $i++);
+echo "$num - $i<br>";
+*/
+//Lesson 5. Task 58.
+
