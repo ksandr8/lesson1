@@ -500,4 +500,20 @@ foreach ($arr as $value) {
     echo $result;
 }
 */
-//Lesson 5. Task 55.
+//Lesson 5. Task 55. FLAG
+/*
+$arr = ['a', 'b','c','d','e'];
+$flag = false;
+foreach ($arr as $value){
+    if ($value==='c'){
+        $flag=true;
+        break;
+    }
+}
+if ($flag===true){
+    echo "Є";
+}else{
+    echo "Немає";
+}
+*/
+//Lesson 5. Task 56.
