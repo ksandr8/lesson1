@@ -548,4 +548,30 @@ for ($num = 5, $i = 0; $num < 1000; $num = $num * 3, $i++);
 echo "$num - $i<br>";
 */
 //Lesson 5. Task 58.
-
+/*
+$str = '';
+for ($i = 0; $i < 5; $i++) {
+    $str .= '0';
+}
+echo $str;
+*/
+/*
+$str='';
+for ($i=1; $i<10; $i++){
+    $str.=$i;
+}echo $str;
+*/
+/*
+$str = '';
+for ($i = 9; $i > 0; $i--) {
+    $str .= $i;
+}
+echo $str;
+*/
+/*
+$str='';
+for ($i=-1; $i>-10; $i--){
+    $str.=$i;
+}echo $str ;
+*/
+//Lesson 5. Task 59.
