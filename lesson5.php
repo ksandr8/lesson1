@@ -817,3 +817,62 @@ for ($i = 1; $i <= 10; $i++) {
 }
 */
 //Lesson 5. Task 66.
+/*
+$str = '';
+for ($i = 0; $i < 5; $i++) {
+    $str.='xx';
+    echo $str . "<br>";
+}
+*/
+/*
+for ($i = 1; $i<=9; $i++){
+    for ($j= 1; $j <=$i; $j++) {
+        echo $i;
+    }
+    echo "<br>";
+}
+*/
+/*
+for ($i = 0; $i<=9; $i++){
+    $i+=1;
+    for ($j= 1; $j <=$i; $j++) {
+        echo $i;
+    }
+    echo "<br>";
+}
+*/
+/*
+$str = '';
+for ($i = 5; $i >= 1; $i--) {
+    $str = '';
+    for ($j = 0; $j < $i; $j++) {
+        $str .= 'x';
+
+    }
+    echo $str ."<br>";
+}
+*/
+/*
+$str = '';
+for ($i = 10; $i >= 2; $i--) {
+    $i--;
+    $str = '';
+    for ($j = 0; $j < $i; $j++) {
+        $str .= 'x';
+
+    }
+    echo $str ."<br>";
+}
+*/
+/*
+$str = '';
+for ($i = 9; $i >= 1; $i--) {
+    $str = '';
+    for ($j = 0; $j < $i; $j++) {
+        $str .= $i;
+
+    }
+    echo $str ."<br>";
+}
+*/
+//Lesson 5. Task 67.
