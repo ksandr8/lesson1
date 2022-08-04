@@ -876,3 +876,24 @@ for ($i = 9; $i >= 1; $i--) {
 }
 */
 //Lesson 5. Task 67.
+/*
+$arr= [];
+$str = '';
+for ($i = 0; $i < 5; $i++){
+    $str.='xx';
+    $arr[]=$str;
+}
+var_dump($arr);
+*/
+/*
+$arr = [];
+for ($i = 1; $i < 6; $i++) {
+    $str = '';
+    for ($j = 0; $j < 5; $j++) {
+        $str .= $i;
+    }
+    $arr[] = $str;
+}
+var_dump($arr);
+*/
+//Lesson 5. Task 68.
