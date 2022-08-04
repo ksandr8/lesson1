@@ -606,3 +606,34 @@ for ($i=0;$i<=99;$i+=2) {
 var_dump($arr);
 */
 //Lesson 5. Task 61.
+/*
+$arr = ['a', 'b', 'c', 'd', 'e'];
+$length = count($arr);
+for ($i = 0; $i < $length; $i++){
+    echo $arr[$i];
+}
+*/
+/*
+$arr = ['a', 'b', 'c', 'd', 'e'];
+$length = count($arr);
+for ($i = 0; $i < $length - 1; $i++) {
+    echo $arr[$i];
+}
+*/
+/*
+$arr = [1, 2, 3, 4, 5, 6, 7, 8];
+$length = count($arr);
+for ($i = 0; $i < $length / 2; $i++) {
+    echo $arr[$i];
+}
+*/
+/*
+$arr = [1, 2, 3, 4, 5, 6, 7, 8];
+$length = count($arr);
+$sum = 0;
+for ($i = 1; $i < $length; $i++) {
+    $sum+=$arr[$i];
+}
+echo $sum;
+*/
+//Lesson 5. Task 62.
