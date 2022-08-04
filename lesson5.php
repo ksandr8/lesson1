@@ -575,3 +575,19 @@ for ($i=-1; $i>-10; $i--){
 }echo $str ;
 */
 //Lesson 5. Task 59.
+/*
+for($i=1; $i<=9; $i++){
+    for($j=1;$j<=3; $j++){
+        echo $i;
+    }
+}
+*/
+/*
+for($i=10; $i<=30; $i+=10){
+    for($j=1;$j<=3; $j++){
+        echo $i+$j;
+        echo "<br>";
+    }
+}
+*/
+//Lesson 5. Task 60.
