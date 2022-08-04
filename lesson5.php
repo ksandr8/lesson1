@@ -744,3 +744,51 @@ foreach ($arr as $value) {
 print_r($arr2);
 */
 //Lesson 5. Task 64.
+/*
+$arr = [1, 2, 3, 4, 5, 6];
+$length = count($arr);
+for ($i = 0; $i < $length; $i++) {
+    echo $arr[$i + 1];
+}
+*/
+/*
+$arr = [1, 2, 3, 4, 5];
+$length = count($arr);
+for ($i = 1; $i < $length; $i++) {
+    echo $arr[$i + 1] + $arr[$i];
+}
+*/
+/*
+$arr = [1, 2, 3, 4, 5, 6];
+$length = count($arr);
+for ($i = 4; $i < $length; $i++) {
+    echo $arr[$i - 4];
+}
+*/
+/*
+$arr = [1, 2, 3, 4, 5, 6];
+$length = count($arr);
+for ($i = 4; $i < $length; $i++) {
+    echo $arr[$i - 4] + $arr[$i - 4];
+    echo "<br>";
+}
+*/
+/*
+$arr = [1, 2, 3, 4, 5, 6];
+$length = count($arr);
+for ($i = 4; $i < $length; $i++) {
+    echo $arr[$i - 4] + $arr[$i - 4];
+    echo "<br>";
+}
+echo "<br>";
+for ($i = 0; $i < $length; $i++) {
+    echo $arr[$i] + $arr[$i];
+    echo "<br>";
+}
+echo "<br>";
+for ($i = 0; $i < $length; $i++) {
+    echo $arr[$i + 1] + $arr[$i];
+    echo "<br>";
+}
+*/
+//Lesson 5. Task 65.
