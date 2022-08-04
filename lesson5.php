@@ -897,3 +897,115 @@ for ($i = 1; $i < 6; $i++) {
 var_dump($arr);
 */
 //Lesson 5. Task 68.
+/*
+for ($i = 1; $i <= 100; $i++) {
+    echo $i;
+    echo "<br>";
+}
+*/
+/*
+for ($i = 100; $i >= 1; $i--) {
+    echo $i;
+    echo "<br>";
+}
+*/
+/*
+for ($i = 1; $i <= 100; $i++) {
+    if ($i % 2 == 0){
+        echo $i;
+        echo "<br>";
+    }
+
+}*/
+/*
+$arr = [];
+for ($i = 0; $i <= 10; $i++) {
+    $arr[].='x';
+}
+var_dump($arr);
+*/
+/*
+$arr = [];
+for ($i = 1; $i <= 10; $i++) {
+    $arr[].=$i;
+}
+var_dump($arr);
+*/
+/*
+$arr = [];
+for ($i = 1; $i <= 15; $i++) {
+    if ($i>0 and $i<10){
+        $arr[].=$i;
+       var_dump($arr);
+    }
+}
+*/
+/*
+$arr = [];
+$flag = false;
+for ($i = 1; $i <= 15; $i++) {
+    $arr[] .= $i;
+}
+foreach ($arr as $value) {
+    if ($value==5) {
+        $flag = true;
+        break;
+    }
+}
+if ($flag === true){
+    echo "Есть $value";
+}else{
+    echo "Нет 5";
+}
+*/
+/*
+$arr = [];
+$sum = 0;
+for ($i = 1; $i <= 5; $i++) {
+    $arr[] .= $i;
+    $sum += $i;
+}
+var_dump($arr);
+echo "<br>";
+echo $sum;
+*/
+/*
+$arr = [];
+$result = 0;
+for ($i = 1; $i <= 15; $i++) {
+    $arr[] .= $i;
+}
+foreach ($arr as $value){
+    $result += $value**2;
+}echo $result;
+*/
+/*
+$arr = [];
+$sum=0;
+for ($i = 1; $i <= 15; $i++) {
+    $arr[] .= $i;
+}
+foreach ($arr as $value){
+    $sum+=$value;
+}echo $sum / count($arr);
+*/
+/*
+ //ПІД ПИТАННЯМ
+$a = 5;
+$f = 1;
+for ($i = 1; $i < $a; $i++){
+    $f *= $i;
+}echo $f;
+*/
+/*
+$chislo = 5;
+$fact =$chislo;
+$ffact = 1;
+while ($fact>=1){
+    $ffact = $fact * $ffact;
+    $fact--;
+}
+echo $ffact;
+*/
+
+
