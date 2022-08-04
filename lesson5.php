@@ -792,3 +792,28 @@ for ($i = 0; $i < $length; $i++) {
 }
 */
 //Lesson 5. Task 65.
+/*
+$one = 0;
+$two = 1;
+for ($i = 1; $i <= 10; $i++) {
+    $current = $one + $two;
+    $one = $two;
+    $two = $current;
+    echo $current;
+    echo "<br>";
+}
+*/
+/*
+$one = 0;
+$two = 1;
+$three = 2;
+for ($i = 1; $i <= 10; $i++) {
+    $current = $one + $two + $three;
+    $one = $two;
+    $two = $three;
+    $three = $current;
+    echo $current;
+    echo "<br>";
+}
+*/
+//Lesson 5. Task 66.
