@@ -591,3 +591,18 @@ for($i=10; $i<=30; $i+=10){
 }
 */
 //Lesson 5. Task 60.
+/*
+$arr = [];
+for ($i = 0; $i<=100; $i++){
+    $arr[]=$i+1;
+}
+var_dump($arr);
+*/
+/*
+$arr = [];
+for ($i=0;$i<=99;$i+=2) {
+    $arr[]=$i+1;
+}
+var_dump($arr);
+*/
+//Lesson 5. Task 61.
