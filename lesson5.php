@@ -662,3 +662,85 @@ for ($i = 0; $i < $length; $i++) {
 var_dump($arr);
 */
 //Lesson 5. Task 63.
+/*
+$arr = ['employee1' => 100,
+    'employee2' => 200,
+    'employee3' => 300,
+    'employee4' => 400,
+    'employee5' => 500,
+    'employee6' => 600,
+    'employee7' => 700,
+];
+$pl = 0;
+$zar = 0;
+foreach ($arr as $value) {
+    $pl = $value * 0.1;
+    $zar = $pl + $value;
+    echo $zar;
+    echo "<br>";
+}
+*/
+/*
+$arr = ['employee1' => 100,
+    'employee2' => 200,
+    'employee3' => 300,
+    'employee4' => 400,
+    'employee5' => 500,
+    'employee6' => 600,
+    'employee7' => 700,
+];
+$pl = 0;
+$zar = 0;
+foreach ($arr as $value) {
+    if ($value<=400){
+        $pl = $value * 0.1;
+        $zar = $pl + $value;
+        echo $zar;
+        echo "<br>";
+    }
+}
+*/
+/*
+$arr = [1 => 6, 2 => 7, 3 => 8, 4 => 9, 5 => 10];
+$sumk = 0;
+$sumv = 0;
+foreach ($arr as $key => $value) {
+        $sumk+=$key;
+        $sumv+=$value;
+        $result = $sumk/$sumv;
+}
+echo $result;
+echo "<br>";
+*/
+/*
+$arr = ['a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5];
+$arr1 = [];
+$arr2 = [];
+foreach ($arr as $key => $value) {
+    $arr1[] = $key;
+    $arr2[] = $value;
+
+}
+var_dump($arr1);
+var_dump($arr2);
+*/
+/*
+$arr = [
+    1 => 125,
+    2 => 225,
+    3 => 128,
+    4 => 356,
+    5 => 145,
+    6 => 281,
+    7 => 452,
+];
+$arr2 = [];
+foreach ($arr as $value) {
+    $string = (string)$value;
+    if ($string[0] == 1 || $string[0] == 2) {
+        $arr2[] = $value;
+    }
+}
+print_r($arr2);
+*/
+//Lesson 5. Task 64.
