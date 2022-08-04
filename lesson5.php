@@ -637,3 +637,28 @@ for ($i = 1; $i < $length; $i++) {
 echo $sum;
 */
 //Lesson 5. Task 62.
+/*
+$arr = [1, 2, 3, 4, 5, 6, 7, 8];
+$length = count($arr);
+for ($i = 0; $i < $length; $i++){
+    $arr[$i] = $arr[$i]*$arr[$i];
+}
+var_dump($arr);
+*/
+/*
+$arr = [1, 2, 3, 4, 5, 6, 7, 8];
+$length = count($arr);
+for ($i = 0; $i < $length; $i++) {
+    $arr[$i] -= 1;
+}
+var_dump($arr);
+*/
+/*
+$arr = [1, 2, 3, 4, 5, 6, 7, 8];
+$length = count($arr);
+for ($i = 0; $i < $length; $i++) {
+    $arr[$i] += 10;
+}
+var_dump($arr);
+*/
+//Lesson 5. Task 63.
