@@ -1,3 +1,4 @@
+/*
 p{
     color: orange;
     text-decoration: overline;
@@ -40,5 +41,40 @@ h1, h2{
     font: normal 20px/25px Arial;
     text-align: left;
 }
+*/
+/*
+h1{
+    color: blue;
+    text-align: center;
+}
+h2  {
+    color: green;
+    text-align: center;
+    font-weight: normal;
+}
+p {
+    margin-left: 250px;
+    margin-right: 250px ;
+    align: center;
+    text-indent: 50px;
+    line-height: 25px;
+    font-weight: normal;
+}
+ul li {
+    margin-left: 250px;
+    margin-right: 250px ;
+    line-height: 25px;
+    font-weight: normal;
+}
+p i{
+    color: green;
+    font-weight: normal;
+}
+h1, h2, p, li{
+    font-family: Arial;
+}
+ */
+
+
 
 
