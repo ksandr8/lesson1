@@ -73,8 +73,38 @@ p i{
 h1, h2, p, li{
     font-family: Arial;
 }
- */
-
-
-
-
+*/
+.xxx{
+    color: green;
+    font-size: 30px;
+}
+.block a{
+    color: orange;
+}
+.success{
+    color: green;
+}
+.error{
+    color: red;
+}
+.large{
+    font-size: 30px;
+}
+.small{
+    font-size: 20px;
+}
+#try {
+    color: blue;
+}
+#elem p.text {
+    color: red;
+}
+#block p{
+    color: green;
+}
+#blocks .bbb.bbb {
+    color: green;
+}
+.fff h2.bbb{
+    color: green;
+}
