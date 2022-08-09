@@ -1,3 +1,17 @@
+a:link{
+    color: red;
+}
+a:hover{
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+}
+a:active{
+    color:maroon;
+}
+a{
+    color: orange;
+}
 /*
 p{
     color: orange;
@@ -74,6 +88,7 @@ h1, h2, p, li{
     font-family: Arial;
 }
 */
+/*
 .xxx{
     color: green;
     font-size: 30px;
@@ -124,17 +139,6 @@ h2~p{
 main * p{
     color: red;
 }
-a:link{
-    color: red;
-}
-a:hover{
-    color: blue;
-    font-size: 15px;
-    text-decoration: underline;
-}
-a:active{
-    color:maroon;
-}
 .tables li:last-child{
     color: red;
 }
@@ -162,3 +166,5 @@ a:active{
 .root li:not(.pro){
     color: green;
 }
+*/
+
