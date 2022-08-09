@@ -80,6 +80,10 @@ h1, h2, p, li{
 }
 .block a{
     color: orange;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
 }
 .success{
     color: green;
@@ -106,5 +110,55 @@ h1, h2, p, li{
     color: green;
 }
 .fff h2.bbb{
+    color: green;
+}
+.testi + p{
+    color: red;
+}
+h2~p{
+    color: green;
+}
+#element~li{
+    color: blue;
+}
+main * p{
+    color: red;
+}
+a:link{
+    color: red;
+}
+a:hover{
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+}
+a:active{
+    color:maroon;
+}
+.tables li:last-child{
+    color: red;
+}
+.tables li:nth-child(2){
+    color: blue;
+}
+.tables li:nth-last-child(3){
+    color: green;
+}
+.tables li:empty{
+    color: orange;
+}
+.tabl li:first-child{
+    color: blue;
+}
+.tabl li:first-of-type{
+    color: orange;
+}
+.tabl li:nth-of-type(even){
+    color: red;
+}
+.tabl li:not(:first-of-type){
+    color: blue;
+}
+.root li:not(.pro){
     color: green;
 }
