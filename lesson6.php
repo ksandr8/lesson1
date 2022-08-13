@@ -181,3 +181,84 @@ echo "<br>";
 $word = 'слова слова слова.';
 echo rtrim($word, '.') . '.';
 echo "<br>";
+echo strrev(12345);
+echo "<br>";
+$sdr = 'madam';
+$rev = strrev($sdr);
+if ($sdr == $rev) {
+    echo "$sdr - слово паліндром";
+} else {
+    echo 'Слово не паліндром';
+}
+echo "<br>";
+echo str_shuffle('asdgfbv');
+echo "<br>";
+$yt = 'qwertyuiopasdfghjk';
+$sh = str_shuffle($yt);
+echo substr($sh, 0, 6);
+echo "<br>";
+$sp = '12345678';
+echo number_format($sp);
+echo "<br>";
+$pi = '';
+for ($i = 0; $i < 9; $i++) {
+    $pi .= 'x';
+    echo str_repeat($pi, 1) . '<br>';
+}
+for ($i = 1; $i <= 9; $i++) {
+    echo str_repeat($i, $i) . '<br>';
+}
+$tt = 'html, <b>php</b>, js';
+echo strip_tags($tt);
+echo "<br>";
+$oo = '<i>html</i>,<b>php</b>,<s>js</s>';
+echo strip_tags($oo, ['<i> <b>']);
+echo "<br>";
+echo htmlspecialchars('html,<b>php</b>,js');
+echo "<br>";
+echo ord('a') . "\n";
+echo ord('b') . "\n";
+echo ord('c') . "\n";
+echo ord(' ') . "\n";
+echo "<br>";
+echo chr(33);
+echo "<br>";
+$nt = 'F';
+echo ord($nt);
+echo "<br>";
+$len = 5;
+$ft = '';
+for ($i = 0; $i < $len; $i++) {
+    $ft .= chr(rand(97, 122));
+}
+echo $ft;
+echo "<br>";
+$letter = 'G';
+if (ord($letter) >= 65 && ord($letter) <= 90) {
+    echo "Велика літера: $letter";
+}
+if (ord($letter) >= 97 && ord($letter) <= 122) {
+    echo "Маленька літера: $letter";
+}
+echo "<br>";
+$tre = 'ac-cd-ef';
+echo strchr($tre, '-');
+echo "<br>";
+echo strrchr($tre, '-');
+echo "<br>";
+$ftr = 'ab--cd--ef';
+echo strstr($ftr , '--');
+echo "<br>";
+$find = 'var_test_text';
+$uu = explode('_', $find);
+$uu0 = $uu[0];
+$uu1 = ucfirst($uu[1]);
+$uu2 = ucfirst($uu[2]);
+echo $uu0 . $uu1 . $uu2;
+echo "<br>";
+$ii = [1, 2, 3, 4, 55, 34, 36, 43];
+foreach ($ii as $value) {
+    if (strpos($value, '3') !== false) {
+        echo $value . '<br>';
+    }
+}
