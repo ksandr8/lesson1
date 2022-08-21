@@ -247,7 +247,7 @@ echo "<br>";
 echo strrchr($tre, '-');
 echo "<br>";
 $ftr = 'ab--cd--ef';
-echo strstr($ftr , '--');
+echo strstr($ftr, '--');
 echo "<br>";
 $find = 'var_test_text';
 $uu = explode('_', $find);
@@ -256,9 +256,58 @@ $uu1 = ucfirst($uu[1]);
 $uu2 = ucfirst($uu[2]);
 echo $uu0 . $uu1 . $uu2;
 echo "<br>";
-$ii = [1, 2, 3, 4, 55, 34, 36, 43];
+$ii = [1, 2, 3, 4, 55, 43, 36, 43];
 foreach ($ii as $value) {
     if (strpos($value, '3') !== false) {
         echo $value . '<br>';
     }
 }
+echo "<br>";
+
+
+
+echo "Function";
+echo "<br>";
+echo pow(2, 10);
+echo "<br>";
+echo sqrt(245);
+echo "<br>";
+$force = [4, 2, 5, 19, 13, 0, 10];
+$sum = null;
+foreach ($force as $value) {
+    $kva = pow($value, 2);
+    $sum += $kva;
+}
+$kv = pow($sum, 2);
+echo sqrt($kv);
+echo "<br>";
+$pos = sqrt(379);
+echo round($pos, 1);
+echo "<br>";
+echo round($pos, 2);
+echo "<br>";
+echo round($pos, 3);
+echo "<br>";
+$arte = ['floor' => '', 'ceil' => ''];
+$set = sqrt(587);
+$kre = floor($set);
+$krew = ceil($set);
+$arte['floor'] .= $kre;
+$arte['ceil'] .= $krew;
+print_r($arte);
+echo "<br>";
+$ftt = [4, -2, 5, 19, -130, 0, -10];
+echo min($ftt);
+echo "<br>";
+echo mt_rand(0, 100);
+echo "<br>";
+$wert = [];
+for ($i = 0; $i < 10; $i++) {
+    $wert[$i] = mt_rand(0, 10);
+}
+print_r($wert);
+echo "<br>";
+$pp = -20;
+$ll = 5;
+echo abs($pp - $ll);
+echo "<br>";
