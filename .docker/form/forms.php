@@ -6,10 +6,10 @@ include("../../user function.php");
 ?>
 
 <?php
-if (empty($_REQUEST['city'])) {
+if (!isset($_REQUEST['city'])) {
     ?>
     <form action="" method="GET">
-        <label for="city">Vashe misto</label>
+        <label for="city">Ваше місто</label>
         <input type="text" id="city" name="city">
         <input type="submit" value="send">
     </form>
@@ -17,14 +17,14 @@ if (empty($_REQUEST['city'])) {
 }
 ?>
 <?php
-if (!empty($_REQUEST['city'])) {
+if (isset($_REQUEST['city'])) {
     $city = strip_tags($_REQUEST['city']);
     echo "vashe misto $city";
 }
 ?>
 
 <?php
-if (empty($_REQUEST['age'])) {
+if (!isset($_REQUEST['age'])) {
     ?>
     <form action="" method="GET">
         <label for="age">Ваш вік</label>
@@ -35,7 +35,7 @@ if (empty($_REQUEST['age'])) {
 }
 ?>
 <?php
-if (!empty($_REQUEST['age'])) {
+if (isset($_REQUEST['age'])) {
     $age = $_REQUEST['age'];
     echo "Ваш вік: $age";
 }

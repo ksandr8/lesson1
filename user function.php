@@ -57,3 +57,29 @@ function user($name, $age, $text)
     $t = strip_tags($text);
     echo "Ваше імя: $n Ваш вік: $age Ваш текст: $t";
 }
+
+
+const AUTH_DATA = [
+    ['login' => 'denis', 'password' => '12345678'],
+    ['login' => 'admin', 'password' => 'admin'],
+];
+
+function getUserByLogin(string $login): ?array
+{
+    foreach (AUTH_DATA as $user) {
+
+        if ($login === $user['login']) {
+            return $user;
+        }
+    }
+    return null;
+}
+
+function isValidPassword(string $realPassword, string $password): bool
+{
+    return $realPassword === $password;
+}
+function isLeap($y)
+{
+    return $y % 400 == 1 || ($y % 100 != 0 && ($y & 3) == 0);
+}

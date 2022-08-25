@@ -2,6 +2,7 @@
 include "lesson6.html";
 include "user function.php";
 ?>
+
 <form action="" method="get">
     <label for="chislo"> Введіть число для піднесення до квадрату</label>
     <input type="number" id="chislo" name="chislo">
@@ -106,7 +107,7 @@ if (isset($_GET['name'], $_GET['age'], $_GET['text'])) {
 <?php
 if (isset($_GET['sl'])) {
     $name = $_GET['sl'];
-    echo $name;
+    echo "Ваше ім'я $name";
 }
 ?>
 
@@ -128,6 +129,5 @@ if (isset($_GET['fe'],$_GET['te'])) {
     echo "Ваше ім'я $name <br> Ваш текст $tex";
 }
 ?>
-
 
 
