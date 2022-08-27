@@ -10,7 +10,7 @@ if (($answer1 == 4) && ($answer2 == 7) && ($answer3 == 8)) {
 }
 ?>
 <ul>
-    <li><a href="/lesson6.html">Home</a></li>
+    <li><a href="/homework/lesson6.html">Home</a></li>
 </ul>
 
 

@@ -1,20 +1,23 @@
-<meta charset="utf-8">
 <?php
+if (isset($_GET['name'])) {
+    setcookie('name', $_GET['name']);
+    $name = $_GET['name'];
+} elseif (isset($_COOKIE['name'])) {
+    $name = $_COOKIE['name'];
+} else {
+    $name = 'користувач';
+}
+?>
+<h1>PAGE 1</h1>
+<p> Привіт <?php echo $name; ?></p>
+<title>Page #1</title>
+<form action="" method="get">
+    <label for="name">Ваше ім'я</label>
+    <input type="text" name="name" id="name">
+    <input type="submit" value="Відправити">
+</form>
 
-//lesson 1. Task 1
-//echo "Hello World";
+<br>
 
-//lesson 2. Task 1
-//echo "Hello Git";
-
-//lesson 3. Task 1
-error_reporting(E_ALL);
-ini_set('disable_errors', 'on');
-mb_internal_encoding('UTF-8');
-include 'code.php';
-include 'lesson4.php';
-include 'video.php';
-include 'work.php';
-include 'lesson5.php';
-include 'lesson6.php';
-include 'lesson6.html';
+<br>
+<a href="page2.php">Друга сторінка</a>

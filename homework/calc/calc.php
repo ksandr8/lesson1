@@ -1,5 +1,5 @@
 <ul>
-    <li><a href="/lesson6.html">Home</a></li>
+    <li><a href="/homework/lesson6.html">Home</a></li>
 </ul>
 <form action="" method="GET">
     <label for="ch1"></label>

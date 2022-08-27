@@ -1,5 +1,5 @@
 <ul>
-    <li><a href="/lesson6.html">Home</a></li>
+    <li><a href="/homework/lesson6.html">Home</a></li>
 </ul>
 <p>Питання №1</p>
 <p>2+2=?</p>

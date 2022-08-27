@@ -179,7 +179,7 @@ echo "<br>";
 echo trim('/php/', '/');
 echo "<br>";
 $word = 'слова слова слова.';
-echo rtrim($word, '.') . '.';
+echo rtrim($word, '.') . 'php-lessons';
 echo "<br>";
 echo strrev(12345);
 echo "<br>";
