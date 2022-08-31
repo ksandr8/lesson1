@@ -1,10 +1,6 @@
 <?php
 session_start();
 include "AuthFunction.php";
-if (empty($_POST['login']) && empty($_POST['password'])) {
-    echo "Введіть логін та пароль";
-
-}
 if (isset($_POST['login'], $_POST['password']) && !empty($_POST['login']) && !empty($_POST['password'])) {
     $login = $_POST['login'];
     $password = $_POST['password'];
@@ -16,18 +12,21 @@ if (isset($_POST['login'], $_POST['password']) && !empty($_POST['login']) && !em
             header("Location: page1.php");
             exit();
         }
-
     }
-
 }
-
 ?>
-<form action="" method="post">
-    Login:
-    <input type="text" name="login">
-    <br>
-    Password:
-    <input type="password" name="password">
-    <br>
-    <input type="submit" value="Login">
-</form>
+<link href="style.scss" rel="stylesheet" type="text/css">
+<body>
+<div class="wrapper">
+    <form class="form-signin " action="" method="post">
+        <h2>Login</h2>
+        <a>Login:</a><input class="name1" type="text" name="login" required>
+        <br>
+        <br>
+        <a>Password:</a><input class="name2" type="password" name="password" reaquired>
+        <br>
+        <br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+
