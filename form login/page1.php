@@ -15,7 +15,7 @@ $role = $_SESSION['user']['role'];
         <p class="text"> <?php
             echo "Вітаю з авторизацією $user <br> Ваша роль: $role <br>";
             echo "<br>"; ?> </p>
-        <input type="submit" name="logout" value="Logout">
+        <input class="button" type="submit" name="logout" value="Logout">
     </form>
 </div>
 </body>

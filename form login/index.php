@@ -17,16 +17,22 @@ if (isset($_POST['login'], $_POST['password']) && !empty($_POST['login']) && !em
 ?>
 <link href="style.scss" rel="stylesheet" type="text/css">
 <body>
+<div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+</div>
 <div class="wrapper">
     <form class="form-signin " action="" method="post">
         <h2>Login</h2>
         <a>Login:</a><input class="name1" type="text" name="login" required>
         <br>
         <br>
-        <a>Password:</a><input class="name2" type="password" name="password" reaquired>
+        <a>Password:</a>
+        <input class="name2" type="password" name="password" reaquired>
         <br>
         <br>
-        <input type="submit" value="Login">
+        <input type="submit" value="Login" class="button">
     </form>
 </body>
 

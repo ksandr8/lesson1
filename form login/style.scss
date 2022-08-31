@@ -1,36 +1,86 @@
 body {
-  background: #eee !important;
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: auto;
+  background: linear-gradient(
+                  rgba(101, 0, 94, 1) 3%,
+                  rgba(60, 132, 206, 1) 38%,
+                  rgba(48, 238, 226, 1) 68%,
+                  rgba(12, 120, 43, 1) 98%
+  );
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+
 }
 .wrapper {
   margin-top: 200px;
   margin-bottom: 80px;
 }
+
 .form-signin {
   text-align: center;
   max-width: 380px;
   padding: 25px 15px 45px;
   margin: 0 auto;
   background-color: #fff;
-  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 0 0 25px chocolate;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
 }
+
 .form-signin a {
   margin-left: -30px;
 }
+
 .text {
   padding-left: 90px;
   text-align: left;
 }
+
 input {
-  border: 1px solid rgba(0,0,0,0.1);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
-.name1{
-  margin-left: 60px;
+.name1 {
+  margin-left: 65px;
 }
-.name2{
+.name2 {
   margin-left: 30px;
 }
-
-
+.button{
+  padding: 5px 15px;
+  margin-left: 230px;
+  border-radius: 10px;
+  background-color: rgba(158,166,18,0.5);
+}
+.button:hover{
+  animation: pulsate 2s
+  ease-in-out;
+  color: white;
+  padding: 5px 15px;
+  margin-left: 230px;
+  border-radius: 10px;
+  background-color: rgba(13,84,14,0.5);
+}
+@keyframes pulsate {
+  0% {
+    box-shadow:
+    0 0 5px #0d540e,
+    0 0 25px #0d540e;
+  }
+}
 
 
 
