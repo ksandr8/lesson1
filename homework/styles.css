@@ -1,0 +1,170 @@
+a:link{
+    color: red;
+}
+a:hover{
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+}
+a:active{
+    color:maroon;
+}
+a{
+    color: orange;
+}
+/*
+p{
+    color: orange;
+    text-decoration: overline;
+}
+h1, h2, h3 {
+    color: rgb(236,0,249,98) ;
+}
+td {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+th {
+    font-weight: normal;
+    text-align: center;
+}
+p{
+    width: 500px;
+    line-height: 25px;
+    text-indent: 25px;
+}
+li{
+    text-align: center;
+}
+ul li{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+ol li{
+    text-align: center;
+    color: blue;
+    text-decoration: line-through;
+}
+h1, h2{
+    font-weight: normal;
+}
+.table li{
+    font: normal 20px/25px Arial;
+    text-align: left;
+}
+*/
+/*
+h1{
+    color: blue;
+    text-align: center;
+}
+h2  {
+    color: green;
+    text-align: center;
+    font-weight: normal;
+}
+p {
+    margin-left: 250px;
+    margin-right: 250px ;
+    align: center;
+    text-indent: 50px;
+    line-height: 25px;
+    font-weight: normal;
+}
+ul li {
+    margin-left: 250px;
+    margin-right: 250px ;
+    line-height: 25px;
+    font-weight: normal;
+}
+p i{
+    color: green;
+    font-weight: normal;
+}
+h1, h2, p, li{
+    font-family: Arial;
+}
+*/
+/*
+.xxx{
+    color: green;
+    font-size: 30px;
+}
+.block a{
+    color: orange;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.success{
+    color: green;
+}
+.error{
+    color: red;
+}
+.large{
+    font-size: 30px;
+}
+.small{
+    font-size: 20px;
+}
+#try {
+    color: blue;
+}
+#elem p.text {
+    color: red;
+}
+#block p{
+    color: green;
+}
+#blocks .bbb.bbb {
+    color: green;
+}
+.fff h2.bbb{
+    color: green;
+}
+.testi + p{
+    color: red;
+}
+h2~p{
+    color: green;
+}
+#element~li{
+    color: blue;
+}
+main * p{
+    color: red;
+}
+.tables li:last-child{
+    color: red;
+}
+.tables li:nth-child(2){
+    color: blue;
+}
+.tables li:nth-last-child(3){
+    color: green;
+}
+.tables li:empty{
+    color: orange;
+}
+.tabl li:first-child{
+    color: blue;
+}
+.tabl li:first-of-type{
+    color: orange;
+}
+.tabl li:nth-of-type(even){
+    color: red;
+}
+.tabl li:not(:first-of-type){
+    color: blue;
+}
+.root li:not(.pro){
+    color: green;
+}
+*/
+
