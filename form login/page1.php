@@ -17,5 +17,6 @@ $role = $_SESSION['user']['role'];
             echo "<br>"; ?> </p>
         <input class="button" type="submit" name="logout" value="Logout">
     </form>
+
 </div>
 </body>
